@@ -8,11 +8,7 @@ The project can be see as jupyter notebook with included documentation and resul
 Or as python module [here](https://github.com/sourcemagic/Delivery-optimization/blob/main/delivery_optimization.py).  
 It can be imported as a module and used for other parameters or executed directly as a script and runs with the exercise example parameters.  
 
-### Used Requirements
-
-- Python=3.7.6
-- pandas=1.0.1
-- pulp=2.4
+### Execution
 
 There is a virtual environment to execute the script [here](https://github.com/sourcemagic/Delivery-optimization/tree/main/venv)  
 **To run the script** type following in the console from directory Delivery-optimization:  
@@ -20,6 +16,17 @@ There is a virtual environment to execute the script [here](https://github.com/s
 Linux: `~Delivery-optimization> ./venv/Scripts/python ./delivery_optimization.py`  
 Windows: `~Delivery-optimization> .\venv\Scripts\python .\delivery_optimization.py`  
 
+**Required files** 
+
+To execute there must be data of items to load.  
+These are separated in a csv file.  
+For example exists the `items.csv` in this repository, which is used for the exercise from the given coding challenge in the jupyter notebook and the script. 
+
+### Used python and libraries
+
+- Python=3.7.6
+- pandas=1.0.1
+- pulp=2.4
 
 ## Results for the coding challenge exercise
 
